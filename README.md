@@ -35,13 +35,16 @@ Now that the account is unlocked, we are ready to send a transaction.  To do thi
 - The transaction may still show in "Pending" status, but once "Check TX Status" is clicked again it should change to "Successful" status. 
 - To view this transaction at a later time, you can also click on the "TX Status" button on the left hand side of the MyCrypto app.  From there you can enter the transaction hash (TX Hash), click "Check TX Status" and view the status once again.  
 
-- 
 
 
 
 
-_Still need to do the following: 
-Be sure to include all of the geth flags required to get both nodes to mine and explain what they mean.
-Explain the configuration of the network, such as it's blocktime, chain ID, account passwords, ports, etc.
 
+### Still need to do the following: 
+- Be sure to include all of the geth flags required to get both nodes to mine and explain what they mean.
+- Explain the configuration of the network, such as it's blocktime, chain ID, account passwords, ports, etc.
+- Explain how to connect MyCrypto to your network and demonstrate (via screenshots and steps) and send a transaction.
+- Upload the code, including the networkname.json and node folders.
+- Enter photos
+- Link install instructions
 
