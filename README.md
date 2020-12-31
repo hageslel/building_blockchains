@@ -10,6 +10,11 @@ The network is configured as follows:
 - Node 1 and node 2 operate on separate ports (30303 and 30304, respectively). 
 - A test network named "jolt" has been set up on MyCrypto to allow for testing of the network and sending transactions. 
 
+![Network Configuration](Screenshots/puppeth_config1.PNG)
+![Network Configuration](Screenshots/puppeth_config2.PNG)
+![Network Configuration](Screenshots/puppeth_config3.PNG)
+![Network Configuration](Screenshots/puppeth_config4.PNG)
+
 ### Starting the Blockchain 
 The first step to allow access to launching the blockchain will be to ensure all Go Ethereum (geth) tools are installed.  Additionally, a MyCrypto wallet will need to be created.  Instructions to complete both tasks can be found here: [Install Guide](blockchain-install-guide.md)
 
@@ -33,6 +38,13 @@ Once all Go Ethereum dependencies are installed and a MyCrpto wallet is created,
 
   - The SEALER_ONE_ADDRESS, SEALER_TWO_ADDRESS, and SEALER_ONE_ENODE_ADDRESS were provided when creating and initializing each node.  A best practice is to document these addresses for ease of blockchain unlocking.  This data can be viewed in the screen shots provided in the "Screenshots" folder, as well as in the document attached.  
 - Once the above steps are complete the blockchain will be up and running again.  
+
+### The Network Running
+
+The screen shots below provide an example of what the network looks like once it is activated and running.  The first screen shot is an example of node 1 in operation, and the second screen shot is an example of node 2 in operation. 
+
+![Running Nodes](Screenshots/node1_action.PNG)
+![Running Nodes](Screenshots/node2_action.PNG)
 
 ### Testing the Blockchain - MyCrypto
 To ensure the blockchain is operating as designed, it can be tested using MyCrypto.  The steps outlined below explain how to connect to a custom network on MyCrypto and test the network by sending transactions.  
