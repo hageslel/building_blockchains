@@ -18,11 +18,11 @@ Once all Go Ethereum dependencies are installed and a MyCrpto wallet is created,
 - Launch a terminal window (GitBash) and navigate to your Blockchain-Tools folder (created in the above install instructions).  
 - Unlock node1 (named jnode1 in this network) with the command below.  
 
-  * ./geth --datadir jnode1 --unlock "SEALER_ONE_ADDRESS" --mine --rpc --allow-insecure-unlock
+  -  ./geth --datadir jnode1 --unlock "SEALER_ONE_ADDRESS" --mine --rpc --allow-insecure-unlock
   - This command accesses node 1 (named jnode1 in this network) with --datadir, plugs in the sealer address of that specific node, designates the node as a mining node (--mine command), and directs the system where to process and return results (--rpc command). 
 
 - Unlock node2 (named jnode2 in this network) with the command below.
-  - Node 2 unlock command: ./geth --datadir jnode2 --unlock "SEALER_TWO_ADDRESS" --mine --port 30304 --bootnodes "enode://SEALER_ONE_ENODE_ADDRESS@127.0.0.1:30303" --ipcdisable --allow-insecure-unlock
+  - Node 2 unlock command:  ./geth --datadir jnode2 --unlock "SEALER_TWO_ADDRESS" --mine --port 30304 --bootnodes "enode://SEALER_ONE_ENODE_ADDRESS@127.0.0.1:30303" --ipcdisable --allow-insecure-unlock
   - All commands operate in the same way as in node 1.  However, as noticed there are a few different / extra commands needed to unlock node 2.  The --port 30304 command simply directs this node to operate in a new port (30304 vs. 30303 for node 1).  This is because node 2 is mining separately in a separate terminal window.  The --bootnodes command directs node 2 to sync with node 1, which is why it is referencing the node 1 enode address.  Finally, the --ipcdisable is used to disable the IPC-RPC server on Windows.  This is again due to node 2 operating in a separate terminal window to node 1, which enabled RPC (--rpc command). 
 
   - The SEALER_ONE_ADDRESS, SEALER_TWO_ADDRESS, and SEALER_ONE_ENODE_ADDRESS were provided when creating and initializing each node.  A best practice is to document these addresses for ease of blockchain unlocking.  This data can be viewed in the screen shots provided in the "Screenshots" folder, as well as in the document attached.  
