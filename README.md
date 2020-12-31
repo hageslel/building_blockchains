@@ -38,34 +38,62 @@ Once all Go Ethereum dependencies are installed and a MyCrpto wallet is created,
 To ensure the blockchain is operating as designed, it can be tested using MyCrypto.  The steps outlined below explain how to connect to a custom network on MyCrypto and test the network by sending transactions.  
 
 - Open MyCrypto and click on "Change Network" in the bottom left corner. 
+
+![Changing Network](Screenshots/my_crypto_change_network.PNG)
+
 - Click "Add Custom Node". 
+
+![Custom Node](Screenshots/my_crypto_custom_node.PNG)
+
 - Make sure to select "Custom" for the network.  This will generate additional fields to be filled in.  
+
 - Enter the Node Name, the Network(should already be set to "Custom" from the step above), the Network Name, Currency, ChainID, and URL. 
 - The Currency should be set to ETH, and the ChainID will be the chain id generated when creating the genesis block. 
 - The URL will be: http://127.0.0.1:8545. 
 - Click "Save & Use Custom Node".
 
+![Changing Network](Screenshots/my_crypto_setting_network.PNG)
+
+- You can verify you are connected to your newly created network by checking the network connection. 
+
+![Changing Network](Screenshots/my_crypto_network_verify.PNG)
+
 Now that we are connected to the network created above, we can begin testing it by generating transactions between accounts.  Follow the steps outlined below to complete this. 
 
 - Make sure you are on the "View & Send" tab in MyCrypto. 
+
+![Testing Network](Screenshots/my_crypto_keystore1.PNG)
+
 - From there, click on "Keystore File".  This will bring up a new window, allowing you to unlock your keystore file. 
+
+![Testing Network](Screenshots/my_crypto_keystore2.PNG)
+
 - Click on "Select Wallet File".  From there navigate to the directory where the node data was saved.  Access the node1 folder and then the keystore folder.  Click on the file within the keystore folder and click open.  
+
+![Testing Network](Screenshots/my_crypto_keystore3.PNG)
+
 - The password created during the node generation will need to be entered to unlock the the file.  Once this is done, click "Unlock". 
+
+![Testing Network](Screenshots/my_crypto_keystore4.PNG)
 
 Now that the account is unlocked, we are ready to send a transaction.  To do this, follow the steps below. 
 
 - Enter the account address for node2 in the "To Address" box.  
+
+![Testing Network](Screenshots/my_crypto_transaction1.PNG)
+
 - Enter an amount to be sent to that account and click "Send Transaction"
+
+![Testing Network](Screenshots/my_crypto_transaction2.PNG)
+
 - A green confirmation message should populate below.  Within that box click on the "Check TX Status" button.  
+
+![Testing Network](Screenshots/my_crypto_transaction3.PNG)
+
 - The transaction may still show in "Pending" status, but once "Check TX Status" is clicked again it should change to "Successful" status. 
+
+![Testing Network](Screenshots/my_crypto_transaction4.PNG)
+
 - To view this transaction at a later time, you can also click on the "TX Status" button on the left hand side of the MyCrypto app.  From there you can enter the transaction hash (TX Hash), click "Check TX Status" and view the status once again.  
 
-
-
-
-### Still need to do the following: 
-
-- Upload the code, including the networkname.json and node folders.
-- Enter photos
-- Link install instructions
-
+![Testing Network](Screenshots/my_crypto_transaction5.PNG)
