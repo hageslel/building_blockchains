@@ -9,6 +9,7 @@ The network is configured as follows:
 - Both nodes created are mining nodes, as can be identified in the geth commands outlined in the section below. 
 - Node 1 and node 2 operate on separate ports (30303 and 30304, respectively). 
 - A test network named "jolt" has been set up on MyCrypto to allow for testing of the network and sending transactions. 
+- The screenshots below outline the steps of network configuration. 
 
 ![Network Configuration](Screenshots/puppeth_config1.PNG)
 ![Network Configuration](Screenshots/puppeth_config2.PNG)
