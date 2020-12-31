@@ -1,0 +1,38 @@
+=============== Dec 28, 2020 (PST) ===============
+13:11:45.774755 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:11:45.779907 db@open opening
+13:11:45.780908 version@stat F·[] S·0B[] Sc·[]
+13:11:45.783894 db@janitor F·2 G·0
+13:11:45.783894 db@open done T·3.9873ms
+13:11:45.797943 db@close closing
+13:11:45.797943 db@close done T·0s
+=============== Dec 28, 2020 (PST) ===============
+13:17:15.259015 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:17:15.259015 version@stat F·[] S·0B[] Sc·[]
+13:17:15.259015 db@open opening
+13:17:15.259015 journal@recovery F·1
+13:17:15.264015 journal@recovery recovering @1
+13:17:15.268086 memdb@flush created L0@2 N·15 S·1KiB "!\xed\xe8..%\xa2v,v5":"\xfb\x8d]..\x10w\xd1,v4"
+13:17:15.272029 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+13:17:15.280127 db@janitor F·3 G·0
+13:17:15.280127 db@open done T·21.1112ms
+=============== Dec 28, 2020 (PST) ===============
+14:12:17.420556 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:12:17.421555 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+14:12:17.421555 db@open opening
+14:12:17.422564 journal@recovery F·1
+14:12:17.426557 journal@recovery recovering @3
+14:12:17.429717 memdb@flush created L0@5 N·3 S·497B "Dat..ion,v17":"cli..\buq,v19"
+14:12:17.433647 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+14:12:17.441640 db@janitor F·4 G·0
+14:12:17.441640 db@open done T·20.0854ms
+=============== Dec 29, 2020 (PST) ===============
+10:23:40.139470 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+10:23:40.140477 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+10:23:40.140477 db@open opening
+10:23:40.140477 journal@recovery F·1
+10:23:40.144470 journal@recovery recovering @6
+10:23:40.148469 memdb@flush created L0@8 N·22 S·965B "HL\xa3..Ґ\xb8,v36":"r\x00\x00..Ґ\xb8,v38"
+10:23:40.152477 version@stat F·[3] S·2KiB[2KiB] Sc·[0.75]
+10:23:40.159478 db@janitor F·5 G·0
+10:23:40.159478 db@open done T·19.0008ms

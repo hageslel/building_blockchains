@@ -1,0 +1,38 @@
+=============== Dec 28, 2020 (PST) ===============
+13:10:53.720290 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:10:53.725290 db@open opening
+13:10:53.726292 version@stat F·[] S·0B[] Sc·[]
+13:10:53.729621 db@janitor F·2 G·0
+13:10:53.729621 db@open done T·4.3304ms
+13:10:53.744627 db@close closing
+13:10:53.745621 db@close done T·993.3µs
+=============== Dec 28, 2020 (PST) ===============
+13:13:27.955894 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:13:27.956890 version@stat F·[] S·0B[] Sc·[]
+13:13:27.956890 db@open opening
+13:13:27.956890 journal@recovery F·1
+13:13:27.961900 journal@recovery recovering @1
+13:13:27.965890 memdb@flush created L0@2 N·15 S·1KiB "!\xed\xe8..%\xa2v,v5":"\xfb\x8d]..\x10w\xd1,v4"
+13:13:27.968880 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+13:13:27.975880 db@janitor F·3 G·0
+13:13:27.975880 db@open done T·18.9896ms
+=============== Dec 28, 2020 (PST) ===============
+14:10:14.334790 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:10:14.335784 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+14:10:14.335784 db@open opening
+14:10:14.335784 journal@recovery F·1
+14:10:14.339792 journal@recovery recovering @3
+14:10:14.344891 memdb@flush created L0@5 N·3 S·497B "Dat..ion,v17":"cli..\buq,v19"
+14:10:14.347891 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+14:10:14.355891 db@janitor F·4 G·0
+14:10:14.355891 db@open done T·20.1067ms
+=============== Dec 29, 2020 (PST) ===============
+10:20:02.203872 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+10:20:02.204873 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+10:20:02.204873 db@open opening
+10:20:02.204873 journal@recovery F·1
+10:20:02.209872 journal@recovery recovering @6
+10:20:02.214892 memdb@flush created L0@8 N·10 S·645B "H\x8fF..\xe7\xd4\xcc,v24":"r\x00\x00..\xe7\xd4\xcc,v26"
+10:20:02.218896 version@stat F·[3] S·2KiB[2KiB] Sc·[0.75]
+10:20:02.225889 db@janitor F·5 G·0
+10:20:02.225889 db@open done T·21.0157ms
