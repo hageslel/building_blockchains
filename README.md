@@ -26,7 +26,7 @@ Once all Go Ethereum dependencies are installed and a MyCrpto wallet is created,
 
   -  ./geth --datadir jnode1 --unlock "SEALER_ONE_ADDRESS" --mine --rpc --allow-insecure-unlock
   - IMPORTANT: When entering the sealer one address, be sure to leave the 0x pretense off the address when pasting it into your terminal (ex: 3a2dD48d933C50A3A5e9cd33A83D9C7C7F9Cc5ca).  Additional sealer one address info can be found below.  
-  - This command accesses node 1 (named jnode1 in this network) with --datadir, plugs in the sealer address of that specific node, designates the node as a mining node (--mine command), and directs the system where to process and return results (--rpc command). 
+  - What does all of this mean?  The --datadir command accesses node 1 (named jnode1 in this network).  The sealer address is inputted to activate the node.  The --mine command designates the node as a mining node.  Finally, the --rpc command directs the system where to process and return results. 
   
 ![Node 1 Unlock](Screenshots/node1_unlock.PNG)
 
@@ -37,7 +37,12 @@ Once all Go Ethereum dependencies are installed and a MyCrpto wallet is created,
 
 ![Node 2 Unlock](Screenshots/node2_unlock.PNG)
 
-  - The SEALER_ONE_ADDRESS, SEALER_TWO_ADDRESS, and SEALER_ONE_ENODE_ADDRESS were provided when creating and initializing each node.  A best practice is to document these addresses for ease of blockchain unlocking.  This data can be viewed in the screen shots provided in the "Screenshots" folder, as well as in the document attached.  
+  - The SEALER_ONE_ADDRESS, SEALER_TWO_ADDRESS, and SEALER_ONE_ENODE_ADDRESS were provided when creating and initializing each node.  A best practice is to document these addresses for ease of blockchain unlocking.  Screenshots are provided for reference in the "Screenshots" folder.  For reference, all info is listed below. 
+  
+    - SEALER_ONE_ADDRESS: 0x3a2dD48d933C50A3A5e9cd33A83D9C7C7F9Cc5ca
+    - SEALER_TWO_ADDRESS: 0x88CD2422014b12c608b1fDbFeB902c7f2734C477
+    - SEALER_ONE_ENODE_ADDRESS: enode://8a1061336896f3aba2064d7b535ae04486e0cea4185616c15507a51a00917f9058f154a4d03901f4aa8220c2bb1750171835e0f4e708714ccc0840a4186d0006@127.0.0.1:30303
+  
 - Once the above steps are complete the blockchain will be up and running again.  
 
 ### The Network Running
@@ -61,8 +66,8 @@ To ensure the blockchain is operating as designed, it can be tested using MyCryp
 - Make sure to select "Custom" for the network.  This will generate additional fields to be filled in.  
 
 - Enter the Node Name, the Network(should already be set to "Custom" from the step above), the Network Name, Currency, ChainID, and URL. 
-- The Currency should be set to ETH, and the ChainID will be the chain id generated when creating the genesis block. 
-- The URL will be: http://127.0.0.1:8545. 
+  - The Currency should be set to ETH, and the ChainID will be the chain id generated when creating the genesis block. 
+  - The URL will be: http://127.0.0.1:8545. 
 - Click "Save & Use Custom Node".
 
 ![Changing Network](Screenshots/my_crypto_setting_network.PNG)
@@ -81,7 +86,7 @@ Now that we are connected to the network created above, we can begin testing it 
 
 ![Testing Network](Screenshots/my_crypto_keystore2.PNG)
 
-- Click on "Select Wallet File".  From there navigate to the directory where the node data was saved.  Access the node1 folder and then the keystore folder.  Click on the file within the keystore folder and click open.  
+- Click on "Select Wallet File".  From there navigate to the directory where the node data was saved.  Access the "node1" folder and then the "keystore" folder.  Click on the file within the keystore folder and click open.  
 
 ![Testing Network](Screenshots/my_crypto_keystore3.PNG)
 
