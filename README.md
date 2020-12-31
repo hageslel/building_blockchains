@@ -22,7 +22,7 @@ Once all Go Ethereum dependencies are installed and a MyCrpto wallet is created,
   - This command accesses node 1 (named jnode1 in this network) with --datadir, plugs in the sealer address of that specific node, designates the node as a mining node (--mine command), and directs the system where to process and return results (--rpc command). 
 
 - Unlock node2 (named jnode2 in this network) with the command below.
-  - Node 2 unlock command:  ./geth --datadir jnode2 --unlock "SEALER_TWO_ADDRESS" --mine --port 30304 --bootnodes "enode://SEALER_ONE_ENODE_ADDRESS@127.0.0.1:30303" --ipcdisable --allow-insecure-unlock
+  -  ./geth --datadir jnode2 --unlock "SEALER_TWO_ADDRESS" --mine --port 30304 --bootnodes "enode://SEALER_ONE_ENODE_ADDRESS@127.0.0.1:30303" --ipcdisable --allow-insecure-unlock
   - All commands operate in the same way as in node 1.  However, as noticed there are a few different / extra commands needed to unlock node 2.  The --port 30304 command simply directs this node to operate in a new port (30304 vs. 30303 for node 1).  This is because node 2 is mining separately in a separate terminal window.  The --bootnodes command directs node 2 to sync with node 1, which is why it is referencing the node 1 enode address.  Finally, the --ipcdisable is used to disable the IPC-RPC server on Windows.  This is again due to node 2 operating in a separate terminal window to node 1, which enabled RPC (--rpc command). 
 
   - The SEALER_ONE_ADDRESS, SEALER_TWO_ADDRESS, and SEALER_ONE_ENODE_ADDRESS were provided when creating and initializing each node.  A best practice is to document these addresses for ease of blockchain unlocking.  This data can be viewed in the screen shots provided in the "Screenshots" folder, as well as in the document attached.  
@@ -57,12 +57,8 @@ Now that the account is unlocked, we are ready to send a transaction.  To do thi
 
 
 
-
-
 ### Still need to do the following: 
-- Be sure to include all of the geth flags required to get both nodes to mine and explain what they mean.
-- Explain the configuration of the network, such as it's blocktime, chain ID, account passwords, ports, etc.
-- Explain how to connect MyCrypto to your network and demonstrate (via screenshots and steps) and send a transaction.
+
 - Upload the code, including the networkname.json and node folders.
 - Enter photos
 - Link install instructions
