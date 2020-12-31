@@ -11,7 +11,7 @@ The network is configured as follows:
 - A test network named "jolt" has been set up on MyCrypto to allow for testing of the network and sending transactions. 
 
 ### Starting the Blockchain 
-The first step to allow access to launching the blockchain will be to ensure all Go Ethereum (geth) tools are installed.  Additionally, a MyCrypto wallet will need to be created.  Instructions to complete both tasks can be found here: (figure out how to insert install instructions here)
+The first step to allow access to launching the blockchain will be to ensure all Go Ethereum (geth) tools are installed.  Additionally, a MyCrypto wallet will need to be created.  Instructions to complete both tasks can be found here: [a link](https://github.com/user/repo/blob/branch/other_file.md)
 
 Once all Go Ethereum dependencies are installed and a MyCrpto wallet is created, the blockchain can be launched via your terminal (GitBash on Windows).  The exact instructions outlined below are based on a Windows PC and utilizing GitBash.  Activation instructions may vary slightly depending on your operating system.  
 
