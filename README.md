@@ -18,7 +18,7 @@ Once all Go Ethereum dependencies are installed and a MyCrpto wallet is created,
 - Launch a terminal window (GitBash) and navigate to your Blockchain-Tools folder (created in the above install instructions).  
 - Unlock node1 (named jnode1 in this network) with the command below.  
 
-  - Node 1 unlock command: ./geth --datadir jnode1 --unlock "SEALER_ONE_ADDRESS" --mine --rpc --allow-insecure-unlock
+  * ./geth --datadir jnode1 --unlock "SEALER_ONE_ADDRESS" --mine --rpc --allow-insecure-unlock
   - This command accesses node 1 (named jnode1 in this network) with --datadir, plugs in the sealer address of that specific node, designates the node as a mining node (--mine command), and directs the system where to process and return results (--rpc command). 
 
 - Unlock node2 (named jnode2 in this network) with the command below.
